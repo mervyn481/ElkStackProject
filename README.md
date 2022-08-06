@@ -197,8 +197,7 @@ Published ports 5044, 5601 & 9200 made available:
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
-Docker start1.png
+https://github.com/mervyn481/ElkStackProject/blob/main/Docker%20start1.png
 
 
 
