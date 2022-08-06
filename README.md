@@ -267,7 +267,7 @@ Specific commands the user will need to run to download the playbook, update the
 
 SPECIFIC COMMAND
 APPLICATION
-ssh-keygen
+'ssh-keygen'
 Create ssh key 
 sudo cat .ssh/id_rsa.pub
 View ssh public key
