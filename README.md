@@ -273,7 +273,11 @@ APPLICATION
 
 
 Create ssh key 
-sudo cat .ssh/id_rsa.pub
+
+
+'sudo cat .ssh/id_rsa.pub'
+
+
 View ssh public key
 ssh azadmin@20.222.104.28
 ssh azadmin@10.0.0.4
