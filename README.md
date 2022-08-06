@@ -4,7 +4,7 @@ Elk Stack Project.
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+https://github.com/mervyn481/ElkStackProject/blob/main/ELK%20STACK%20TOPOLOGY%202.png
 
 
 
