@@ -275,7 +275,7 @@ APPLICATION
 Create ssh key 
 
 
-'sudo cat .ssh/id_rsa.pub'
+"sudo cat .ssh/id_rsa.pub"
 
 
 View ssh public key
