@@ -121,7 +121,7 @@ Allowed IP Addresses
 
 Jump Box
 Yes
-20.222.104.28 SSH PORT 22
+20.222.104.28 ssh port 22
 
 
 
@@ -130,7 +130,7 @@ Yes
 
 VM2
 No
-10.1.0.7 SSH PORT 22
+10.1.0.7 ssh port 22
 
 
 
@@ -139,7 +139,7 @@ No
 
 VM3
 No
-10.1.0.8 SSH PORT 22
+10.1.0.8 ssh port 22
 
 
 
@@ -148,7 +148,7 @@ No
 
 ELK Server
 Yes
-Workstation my public TPC 5601
+Workstation my public tcp 5601
 
 
 
@@ -175,7 +175,7 @@ Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because…
 
 What is the main advantage of automating configuration with Ansible?
-Ansible allows for simple and rapid deployment of applications by using a yaml playbook.
+Ansible allows for simple and rapid deployment of applications by using a yml playbook.
 
 The playbook implements the following tasks: 
 
@@ -237,7 +237,7 @@ UDP
  
  
 
-Metricbeat is used to collect and monitor metrics such as stats fromCPU, memory, filesystems, network, data related to services running on a Targets server, etc.
+Metricbeat is used to collect and monitor metrics such as stats from CPU, memory, filesystems, network, data related to services running on a Targets server, etc.
 
 Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -267,17 +267,9 @@ Specific commands the user will need to run to download the playbook, update the
 
 SPECIFIC COMMAND
 APPLICATION
-
-
-'ssh-keygen'
-
-
+ssh-keygen
 Create ssh key 
-
-
-"sudo cat .ssh/id_rsa.pub"
-
-
+sudo cat .ssh/id_rsa.pub
 View ssh public key
 ssh azadmin@20.222.104.28
 ssh azadmin@10.0.0.4
@@ -297,7 +289,7 @@ sudo docker attach wonderful_lovelace
 attach to wonderful_lovelace container
 cd /etc/ansible
 Change ansible directory
-ls -laA
+ls -la
 List all hidden and standard files
 nano /etc/ansible/hosts
 Edit hosts file
@@ -309,7 +301,7 @@ ansible-playbook install_elk_playbook.yml
 Install playbook
 Ansible-playbook [location filename]
 Run ansible playbook
-Cd /etc/ansible/roles
+cd /etc/ansible/roles
 Change into roles directory
 ansible-playbook install_filebeat.playbook.yml
  Install filebeat to playbook
@@ -325,13 +317,13 @@ ansible -m ping all
 curl -L -O [file location]
 dpkg -i [filename]
 http://20.214.0.4:5601//app/kibana 
-Docker status
-Docker start
-Docker container file pull
-Docker container image, run and create
+docker status
+docker start
+docker container file pull
+docker container image, run and create
 Ansible containers, connection check
 File download from web location
-File install [filebeet, metricbeat]
+File install [filebeat, metricbeat]
 Access Kibana from web browser
 
 
